@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce6a8780299b124a8003cb6a29cdc95, type: 3}
+  m_Name: 1.2_FirstResidentCard
+  m_EditorClassIdentifier: 
+  SituationText: "\u0411\u0435\u0437 \u043B\u0438\u0448\u043D\u0438\u0445 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432.
+    \u041D\u0418\u0427\u0415\u0413\u041E \u041D\u0415 \u0411\u0415\u0420\u0418"
+  ImageCard: {fileID: -1748162338, guid: 68a36e5c92930424fb770be7a707fca2, type: 3}
+  NewCardsToUnlock:
+  - {fileID: 11400000, guid: ccf4102db44c41e43bf7c6b442ea65c3, type: 2}
+  - {fileID: 11400000, guid: a47554a96d9cf754d8b9a71f16c9acbe, type: 2}
+  Choices:
+  - ChoiceText: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E"
+    emotions:
+      FearChange: 5
+      JoyChange: -10
+      SadnessChange: 0
+      AngerChange: 0
+    NextCard: {fileID: 0}
+  - ChoiceText: ...
+    emotions:
+      FearChange: 5
+      JoyChange: -10
+      SadnessChange: 0
+      AngerChange: 0
+    NextCard: {fileID: 0}
+  IsFinal: 0
+  IndexFinal: 0

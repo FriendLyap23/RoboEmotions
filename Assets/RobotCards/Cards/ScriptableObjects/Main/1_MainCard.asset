@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce6a8780299b124a8003cb6a29cdc95, type: 3}
+  m_Name: 1_MainCard
+  m_EditorClassIdentifier: 
+  SituationText: "\u0421\u043A\u0430\u043D\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442 \u0441\u043B\u0430\u0431\u044B\u0439
+    \u0440\u0430\u0434\u0438\u043E\u0441\u0438\u0433\u043D\u0430\u043B. \u041E\u043D
+    \u0438\u0441\u043A\u0430\u0436\u0435\u043D. \u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A
+    \u2014 \u0432 \u043F\u0435\u0449\u0435\u0440\u0435 \u043D\u0435\u043F\u043E\u0434\u0430\u043B\u0435\u043A\u0443."
+  ImageCard: {fileID: 1844140326, guid: 390808bdb650cf040835a5ef5165f987, type: 3}
+  NewCardsToUnlock: []
+  Choices:
+  - ChoiceText: "\u0418\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C
+      \u043F\u0435\u0449\u0435\u0440\u0443"
+    emotions:
+      FearChange: 15
+      JoyChange: -5
+      SadnessChange: 0
+      AngerChange: 5
+    NextCard: {fileID: 11400000, guid: 658e35592394e184db94324f477b9e31, type: 2}
+  - ChoiceText: "\u0423\u0439\u0442\u0438"
+    emotions:
+      FearChange: -10
+      JoyChange: 5
+      SadnessChange: 0
+      AngerChange: 0
+    NextCard: {fileID: 11400000, guid: abd9b897fd7115549a7c6deef86b6cc5, type: 2}
+  IsFinal: 0
+  IndexFinal: 0
